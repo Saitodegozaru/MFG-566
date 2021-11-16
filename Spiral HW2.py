@@ -4,7 +4,7 @@ from math import*
 
 rs.EnableRedraw(False)
 
-for t in rs.frange ( 0, 6*pi, pi/45):
+for t in rs.frange ( 0, 6*pi, pi/60):
     x = 0.5*exp(0.15*t)*cos(2*t)
     y = 0.5*exp(0.15*t)*sin(2*t)
     z = 0.5*exp(0.15*t)
